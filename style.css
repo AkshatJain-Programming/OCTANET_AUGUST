@@ -1,0 +1,90 @@
+/* Universal Classes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utility Classes */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.underline {
+  border-bottom: 1px solid transparent;
+  transition: all;
+  transition-duration: 200ms;
+}
+.underline:hover {
+  border-bottom: 1px solid rgb(175, 231, 250);
+  cursor: pointer;
+  color: rgb(175, 231, 250);
+}
+
+
+/* Body */
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #131c25;
+}
+/* Nav Bar */
+.navbar {
+  width: 1080px;
+  margin: auto;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+.logo {
+  color: white;
+  font-size: 2rem;
+  font-family: cursive;
+  transition: all;
+  transition-duration: 300ms;
+}
+.logo:hover {
+  font-size: 2.3rem;
+  color: rgb(175, 231, 250);
+  cursor: pointer;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  color: white;
+  font-size: 1.14rem;
+}
+nav ul li {
+  padding: 8px 0px;
+}
+
+/* Hero Section */
+.hero {
+  margin: auto;
+  display: flex;
+  width: 1080px;
+  margin-top: 40px;
+}
+.hero_line {
+  color: white;
+  padding: 40px 140px;
+}
+.heading {
+  font-size: 3.1rem;
+  margin-bottom: 10px;
+}
+.desc {
+  font: 1.3rem;
+  color: rgb(153, 153, 153);
+}
+
+/* Footer Section */
+.footer {
+  margin: auto;
+  margin-top: 100px;
+  width: 1080px;
+  height: 1px;
+  bottom: 18px;
+  background-color: white;
+}
